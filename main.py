@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("m2.pkl")
+model = joblib.load("model.pkl")
 
 st.title("🎓 Student Performance Prediction")
 
